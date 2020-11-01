@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/Montserrat+Alternates:wght@500&css2?family=Ultra&css2?family=EB+Garamond:wght@500&family=Roboto+Slab:wght@300&css2?family=Roboto:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&css2?family=EB+Garamond:wght@500&css2?family=Roboto+Slab:wght@300&css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
 :root {
   --primary-color: rgb(1, 0, 135);
   --primary-variant: #abd7e6;
@@ -13,7 +13,7 @@
 }
 
 [data-theme='dark'] {
-  --primary-color: rgb(153, 134, 12);
+  --primary-color: rgb(191, 252, 49);
   --primary-variant: #920002;
   --secondary-color: #fdcccc;
 
@@ -46,7 +46,7 @@ section {
 h1 {
   font-size: 80px;
   margin-bottom: 0;
-  font-family: ultra;
+  font-family: 'Ultra', serif;
 }
 
 h2 {
