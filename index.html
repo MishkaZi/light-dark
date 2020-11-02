@@ -12,23 +12,25 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <!-- Dark mode switch -->
-    <div class="theme-switch-wrapper">
-      <span id="toggle-icon">
-        <span class="toggle-text">Light Mode</span>
-        <i class="fas fa-sun"></i>
-      </span>
-      <label class="theme-switch">
-        <input type="checkbox" />
-        <div class="slider round"></div>
-      </label>
-    </div>
     <!-- Navigation -->
-    <nav id="nav">
-      <a href="#home">HOME</a>
-      <a href="#about">ABOUT</a>
-      <a href="#projects">PROJECTS</a>
-      <a href="#contact">CONTACT</a>
+    <nav id="nav" class="navbar">
+      <div class="menu">
+        <a href="#home">HOME</a>
+        <a href="#about">ABOUT</a>
+        <a href="#projects">PROJECTS</a>
+        <a href="#contact">CONTACT</a>
+     </div>
+      <!-- Dark mode switch -->
+      <div class="theme-switch-wrapper">
+        <span id="toggle-icon">
+          <span class="toggle-text">Light Mode</span>
+          <i class="fas fa-sun"></i>
+        </span>
+        <label class="theme-switch">
+          <input type="checkbox" />
+          <div class="slider round"></div>
+        </label>
+      </div>
     </nav>
     <!-- Home section -->
     <section id="home">
@@ -70,12 +72,16 @@
     <section id="projects">
       <h1>Buttons</h1>
       <div class="buttons">
-        <button class="primary">Primary</button>
-        <button class="secondary">Primary</button>
-        <button class="primary" disabled>Disabled</button>
-        <button class="outline">Outline</button>
-        <button class="secondary outline">Alt Outline</button>
-        <button class="outline">Disabled</button>
+        <div>
+          <button class="primary">Primary</button>
+          <button class="secondary">Primary</button>
+          <button class="primary" disabled>Disabled</button>
+        </div>
+        <div>
+          <button class="outline">Outline</button>
+          <button class="secondary outline">Alt Outline</button>
+          <button class="outline">Disabled</button>
+        </div>
       </div>
       <div class="text-box" id="text-box">
         <p>
@@ -88,12 +94,16 @@
     </section>
     <section id="contact">
       <div class="social-icons">
-        <i class="fab fa-github"></i>
-        <i class="fab fa-codepen"></i>
-        <i class="fab fa-linkedin-in"></i>
-        <i class="fab fa-medium"></i>
-        <i class="fab fa-instagram"></i>
-        <i class="fab fa-youtube"></i>
+        <div>
+          <i class="fab fa-github"></i>
+          <i class="fab fa-codepen"></i>
+          <i class="fab fa-linkedin-in"></i>
+        </div>
+        <div>
+          <i class="fab fa-medium"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-youtube"></i>
+        </div>
       </div>
     </section>
 
